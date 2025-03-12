@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-start {
+  width: 500px;
+  height: 300px;
+  padding: 1rem;
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.2);
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+}
+.game-start h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.game-start button {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.game-start button:hover {
+  background-color: #0056b3;
+}
+.game-start:hover {
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.4);
+}
+
+.game-body {
+  width: 500px;
+  height: 300px;
+  padding: 1rem;
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.2);
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+}
+.game-body h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.game-body button {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.game-body button:hover {
+  background-color: #0056b3;
+}
+.game-body .form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.game-body .form label {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #007bff;
+}
+.game-body .form input {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.game-body:hover {
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.4);
+}
+
+.game-body-2 {
+  width: 500px;
+  height: 300px;
+  padding: 1rem;
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.2);
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: 0.5s ease-in-out;
+}
+.game-body-2 h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.game-body-2 button {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.game-body-2 button:hover {
+  background-color: #0056b3;
+}
+.game-body-2 .form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.game-body-2 .form label {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #007bff;
+}
+.game-body-2 .form input {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.game-body-2:hover {
+  box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.4);
+}/*# sourceMappingURL=style.css.map */
